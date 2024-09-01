@@ -12,7 +12,7 @@ export default convexAuthNextjsMiddleware((request) => {
     return nextjsMiddlewareRedirect(request, "/login");
   }
   if (isSignInPage(request) && isAuthenticatedNextjs()) {
-    return nextjsMiddlewareRedirect(request, "/test");
+    return nextjsMiddlewareRedirect(request, "/");
   }
   // if (isProtectedRoute(request) && !isAuthenticatedNextjs()) {
   //   return nextjsMiddlewareRedirect(request, "/signin");
