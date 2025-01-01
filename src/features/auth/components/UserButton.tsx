@@ -9,7 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import UseCurrentUser from "../hooks/UseCurrentUser";
+import UseCurrentUser from "../api/UseCurrentUser";
 import { Loader, LogOutIcon } from "lucide-react";
 import { useAuthActions } from "@convex-dev/auth/react";
 
